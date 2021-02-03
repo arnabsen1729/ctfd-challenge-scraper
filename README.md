@@ -1,8 +1,11 @@
 # CTFD Challenge Scrapper & Downloader
 
+> For python-3 and latest CTFd website try the ctfds2.py
+
+
 this simple script will download CTFD Challenges and its file (if any).
 
-usage : 
+usage :
 
     Usage : python ctfds.py [CTFD-URL] [output_dir] [USERNAME] [PASSWORD]
 
@@ -11,15 +14,15 @@ or
     Usage : python ctfds.py [CTFD-URL] [output_dir]
     #the username & password will be asked
 
-Required Library : 
+Required Library :
 
 * requests
 * json
- 
+
 ### Screenshot
 ![Screenshot](./screenshot.png)
 
-The __"output"__ dir : 
+The __"output"__ dir :
 ```bash
 ouput
 ├── Cryptography
